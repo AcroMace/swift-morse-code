@@ -73,6 +73,7 @@ class ViewController: UIViewController {
         "8": "---..",
         "9": "----.",
         "0": "-----",
+        " ": " ",
     ]
     
     func convertLetterToMorse(input: Character) -> String {
