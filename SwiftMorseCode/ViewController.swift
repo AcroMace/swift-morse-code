@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
                             
+    @IBAction func didEditText(sender: AnyObject) {
+        println("Changed the text in the textbox")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
