@@ -96,8 +96,7 @@ class ViewController: UIViewController {
         return returnString
     }
     
-    @IBAction func didEditText(sender: AnyObject) {
-        println("Changed the text in the textbox")
+    @IBAction func didPressConvert(sender: AnyObject) {
     }
     
     override func viewDidLoad() {
