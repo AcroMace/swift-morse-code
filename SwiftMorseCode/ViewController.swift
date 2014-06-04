@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var inputTextField : UITextField
+    @IBOutlet var outputTextView : UITextView
+    
     let alphaNumToMorse = [
         "A": ".-",
         "B": "-...",
@@ -98,6 +101,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didPressConvert(sender: AnyObject) {
+        let textFieldText = self.inputTextField.text
+        if textFieldText != nil {
+//            println("The input was \(textFieldText)")
+            var outputText = convertStringToMorse(textFieldText)
+            self.outputTextView.text = outputText
+        }
+    }
+    
     }
     
     override func viewDidLoad() {

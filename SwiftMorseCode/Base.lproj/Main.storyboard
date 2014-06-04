@@ -69,6 +69,10 @@
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <connections>
+                        <outlet property="inputTextField" destination="vqV-9F-KEe" id="IfN-8d-aI1"/>
+                        <outlet property="outputTextView" destination="hZk-ww-naD" id="vOg-Vk-jDg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
