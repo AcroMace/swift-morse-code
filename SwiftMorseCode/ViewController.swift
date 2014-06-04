@@ -37,6 +37,32 @@ class ViewController: UIViewController {
         "X": "-..-",
         "Y": "-.--",
         "Z": "--..",
+        "a": ".-",
+        "b": "-...",
+        "c": "-.-.",
+        "d": "-..",
+        "e": ".",
+        "f": "..-.",
+        "g": "--.",
+        "h": "....",
+        "i": "..",
+        "j": ".---",
+        "k": "-.-",
+        "l": ".-..",
+        "m": "--",
+        "n": "-.",
+        "o": "---",
+        "p": ".--.",
+        "q": "--.-",
+        "r": ".-.",
+        "s": "...",
+        "t": "-",
+        "u": "..-",
+        "v": "...-",
+        "w": ".--",
+        "x": "-..-",
+        "y": "-.--",
+        "z": "--..",
         "1": ".----",
         "2": "..---",
         "3": "...--",
@@ -58,7 +84,8 @@ class ViewController: UIViewController {
     }
     
     func convertStringToMorse(input: String) -> String {
-        let stringToConvert = input.uppercaseString
+        let stringToConvert = input
+//        let stringToConvert = input.uppercaseString
         var returnString = ""
         for char in stringToConvert {
             let returnChar = convertLetterToMorse(char)
