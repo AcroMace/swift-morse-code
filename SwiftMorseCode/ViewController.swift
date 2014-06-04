@@ -109,6 +109,9 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func didPressCopyToClipboard(sender: AnyObject) {
+        var pasteboard = UIPasteboard.generalPasteboard()
+        pasteboard.string = self.outputTextView.text
     }
     
     override func viewDidLoad() {

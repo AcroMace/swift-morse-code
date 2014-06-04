@@ -41,6 +41,9 @@
                                 <state key="normal" title="Copy to clipboard">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="didPressCopyToClipboard:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="swn-2J-rFw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7w-sJ-cSs">
                                 <rect key="frame" x="402" y="263" width="55" height="30"/>
