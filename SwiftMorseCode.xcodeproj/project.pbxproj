@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63843541194034EE00F67739 /* MorseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63843540194034EE00F67739 /* MorseConverter.swift */; };
 		63B468BA193EC2670075E264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B468B9193EC2670075E264 /* AppDelegate.swift */; };
 		63B468BC193EC2670075E264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B468BB193EC2670075E264 /* ViewController.swift */; };
 		63B468BF193EC2670075E264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B468BD193EC2670075E264 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63843540194034EE00F67739 /* MorseConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseConverter.swift; sourceTree = "<group>"; };
 		63B468B4193EC2670075E264 /* SwiftMorseCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMorseCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B468B8193EC2670075E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63B468B9193EC2670075E264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				63B468B9193EC2670075E264 /* AppDelegate.swift */,
+				63843540194034EE00F67739 /* MorseConverter.swift */,
 				63B468BB193EC2670075E264 /* ViewController.swift */,
 				63B468BD193EC2670075E264 /* Main.storyboard */,
 				63B468C0193EC2670075E264 /* Images.xcassets */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B468BC193EC2670075E264 /* ViewController.swift in Sources */,
+				63843541194034EE00F67739 /* MorseConverter.swift in Sources */,
 				63B468BA193EC2670075E264 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +401,7 @@
 				63B468D2193EC2670075E264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B468D3193EC2670075E264 /* Build configuration list for PBXNativeTarget "SwiftMorseCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				63B468D5193EC2670075E264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
